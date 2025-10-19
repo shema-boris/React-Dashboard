@@ -1,16 +1,53 @@
-# React + Vite
+# React Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive dashboard application built with React, Vite, and Tailwind CSS. This project includes a feature-rich dashboard and a secure login page.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dashboard:** An interactive and customizable dashboard to visualize data.
+- **Login Page:** A secure authentication page for user access.
+- **Responsive Design:** Fully responsive layout for all screen sizes.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- **Frontend:**
+    - [React](https://reactjs.org/)
+    - [Vite](https://vitejs.dev/)
+    - [Tailwind CSS](https://tailwindcss.com/)
+    - [React Router](https://reactrouter.com/) for routing
+    - [Framer Motion](https://www.framer.com/motion/) for animations
+    - [Recharts](https://recharts.org/) for charts
+    - [React Icons](https://react-icons.github.io/react-icons/) for icons
+- **Linting & Formatting:**
+    - [ESLint](https://eslint.org/)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v18.x or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/react-dashboard.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd react-dashboard
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
+
+## Available Scripts
+
+In the project directory, you can run:
+
+- `npm run dev`: Runs the app in development mode.
+- `npm run build`: Builds the app for production.
+- `npm run lint`: Lints the project files.
+- `npm run preview`: Serves the production build locally.

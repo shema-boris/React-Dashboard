@@ -2,18 +2,16 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,css}",
   ],
   theme: {
     extend: {
       colors: {
-        primary: "#6366F1",
-        accent: "A855F7",
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(circle at 50% 50%, #6366F1, #A855F7)",
+        primary: "#7B5CFA",
+        darkBg: "#1E1B2E",
+        darkPanel: "#2B2640"
       },
     },
   },
   plugins: [],
-}
+};
