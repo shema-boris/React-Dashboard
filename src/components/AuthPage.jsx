@@ -67,6 +67,7 @@ export default function AuthPage() {
 
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-600 via-indigo-500 to-purple-600">
+      
       {/* Animated floating shapes */}
       <motion.div
         className="absolute top-10 left-10 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30"

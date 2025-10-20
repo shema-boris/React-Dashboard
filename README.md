@@ -1,10 +1,9 @@
 # React Dashboard
 
-A modern and responsive dashboard application built with React, Vite, and Tailwind CSS. This project includes a feature-rich dashboard and a secure login page.
+A modern and responsive dashboard application built with React, Vite, and Tailwind CSS. This project includes a secure login page.
 
 ## Features
 
-- **Dashboard:** An interactive and customizable dashboard to visualize data.
 - **Login Page:** A secure authentication page for user access.
 - **Responsive Design:** Fully responsive layout for all screen sizes.
 
@@ -15,8 +14,6 @@ A modern and responsive dashboard application built with React, Vite, and Tailwi
     - [Vite](https://vitejs.dev/)
     - [Tailwind CSS](https://tailwindcss.com/)
     - [React Router](https://reactrouter.com/) for routing
-    - [Framer Motion](https://www.framer.com/motion/) for animations
-    - [Recharts](https://recharts.org/) for charts
     - [React Icons](https://react-icons.github.io/react-icons/) for icons
 - **Linting & Formatting:**
     - [ESLint](https://eslint.org/)
